@@ -53,9 +53,9 @@ PHONE_NUMBER=tu_numero_telefono_destino
 
 3. Si el cambio es mayor a ±5%:
 
-- Se obtienen 3 noticias relevantes de NewsAPI.
+  - Se obtienen 3 noticias relevantes de NewsAPI.
 
-- Se envían mensajes SMS con la información y enlaces a las noticias.
+  - Se envían mensajes SMS con la información y enlaces a las noticias.
 
 4. Si no hay cambio relevante, el programa simplemente indica un cambio moderado.
 
@@ -70,9 +70,9 @@ https://news.com/tesla-model-x
 
 📌 Consideraciones
 
-- El script está enfocado en Tesla Inc., pero puedes cambiar la acción modificando la variable STOCK y COMPANY_NAME.
+  - El script está enfocado en Tesla Inc., pero puedes cambiar la acción modificando la variable STOCK y COMPANY_NAME.
 
-- Puedes programar este script con cron (Linux/Mac) o el Programador de tareas (Windows) para que corra automáticamente todos los días.
+  - Puedes programar este script con cron (Linux/Mac) o el Programador de tareas (Windows) para que corra automáticamente todos los días.
 
 🧑‍💻 Autor
 
