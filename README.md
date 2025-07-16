@@ -36,7 +36,7 @@ venv\Scripts\activate     # en Windows
 pip install -r requirements.txt
 ```
 
-4. Crea un archivo .env y agrega tus claves:
+4. Crea un archivo `.env` y agrega tus claves:
 ```
 AVA_API_KEY=tu_clave_alpha_vantage
 NEW_API_KEY=tu_clave_newsapi
@@ -69,14 +69,19 @@ https://news.com/tesla-model-x
 ```
 
 📌 Consideraciones
+
 - El script está enfocado en Tesla Inc., pero puedes cambiar la acción modificando la variable STOCK y COMPANY_NAME.
 
 - Puedes programar este script con cron (Linux/Mac) o el Programador de tareas (Windows) para que corra automáticamente todos los días.
 
 🧑‍💻 Autor
+
 Carlos Esquerra Martínez
+
 GitHub: @Sugary13
+
 LinkedIn: linkedin.com/in/carlos-esquerra-martinez-bba147269
 
 📄 Licencia
+
 Este proyecto es de uso educativo. Las claves API deben mantenerse seguras en el entorno local y no deben subirse a GitHub.
