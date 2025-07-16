@@ -37,13 +37,14 @@ pip install -r requirements.txt
 ```
 
 4. Crea un archivo .env y agrega tus claves:
-
+```
 AVA_API_KEY=tu_clave_alpha_vantage
 NEW_API_KEY=tu_clave_newsapi
 ACCOUNT_SID=tu_account_sid_twilio
 AUTH_TOKEN=tu_auth_token_twilio
 MESSAGING_SERVICE_ID=tu_messaging_service_sid
 PHONE_NUMBER=tu_numero_telefono_destino
+```
 
 ⚙️ Cómo funciona
 1. Se obtiene el precio de cierre de los últimos dos días con Alpha Vantage.
